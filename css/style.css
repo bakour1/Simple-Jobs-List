@@ -101,7 +101,7 @@ section {
   background-color: var(--bg-section);
   min-height: 7.5rem;
   width: 100%;
-  padding-block: 10px;
+  padding-block: 0.625rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -131,7 +131,7 @@ section .featured {
 }
 
 section .box-img {
-  border: 5px solid var(--bg-border-img);
+  border: 0.3125rem solid var(--bg-border-img);
   height: 5rem;
   width: 6.25rem;
   margin-inline: 1.25rem;
@@ -170,7 +170,7 @@ section .info .about {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.25rem;
-    padding-right: 6px;
+    padding-right: 0.375rem;
   }
 
   section .info .about {
@@ -300,10 +300,12 @@ section .info .price a {
     width: 100%;
     gap: 1.25rem;
   }
+
   section .info .price span,
   section .info .price a {
     flex: 1;
   }
+
   section .info .price span {
     text-align: left;
   }
